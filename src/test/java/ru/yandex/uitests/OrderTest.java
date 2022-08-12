@@ -12,16 +12,16 @@ public class OrderTest extends BaseTest {
         OrderPageElements orderPage = new OrderPageElements(driver);
         boolean result = orderPage
                 .clickHeaderOrderStatusButton()
-                .typeCustomersName("Пётр")
-                .typeCustomersFamily("Петров")
-                .typeCustomersAddress("ул. Петровка")
+                .typeCustomersName("РџС‘С‚СЂ")
+                .typeCustomersFamily("РџРµС‚СЂРѕРІ")
+                .typeCustomersAddress("СѓР». РџРµС‚СЂРѕРІРєР°")
                 .selectCustomersMetro(1) // 1 - 222
                 .typeCustomersTelNumber("+79991234567")
                 .clickMiddleOrderStatusButton()
-                .selectOrderDate("Choose четверг, 18-е августа 2022 г.") // Дата заказа в формате: "Choose четверг, 11-е августа 2022 г."
-                .selectDaysCount("трое суток") // Срок аренды в формате: "количество суток"
+                .selectOrderDate("Choose С‡РµС‚РІРµСЂРі, 18-Рµ Р°РІРіСѓСЃС‚Р° 2022 Рі.") // Р”Р°С‚Р° Р·Р°РєР°Р·Р° РІ С„РѕСЂРјР°С‚Рµ: "Choose С‡РµС‚РІРµСЂРі, 11-Рµ Р°РІРіСѓСЃС‚Р° 2022 Рі."
+                .selectDaysCount("С‚СЂРѕРµ СЃСѓС‚РѕРє") // РЎСЂРѕРє Р°СЂРµРЅРґС‹ РІ С„РѕСЂРјР°С‚Рµ: "РєРѕР»РёС‡РµСЃС‚РІРѕ СЃСѓС‚РѕРє"
                 .clickSelectBlackColor()
-                .typeOrderComment("позвонить за час")
+                .typeOrderComment("РїРѕР·РІРѕРЅРёС‚СЊ Р·Р° С‡Р°СЃ")
                 .clickMiddleOrderStatusButton()
                 .clickConsentButton()
                 .consentWindowDisplay();
@@ -33,16 +33,16 @@ public class OrderTest extends BaseTest {
         OrderPageElements orderPage = new OrderPageElements(driver);
         boolean result = orderPage
                 .clickMiddleOrderStatusButton()
-                .typeCustomersName("иван")
-                .typeCustomersFamily("иванов")
-                .typeCustomersAddress("ивановская площадь")
+                .typeCustomersName("РёРІР°РЅ")
+                .typeCustomersFamily("РёРІР°РЅРѕРІ")
+                .typeCustomersAddress("РёРІР°РЅРѕРІСЃРєР°СЏ РїР»РѕС‰Р°РґСЊ")
                 .selectCustomersMetro(222) // 1 - 222
                 .typeCustomersTelNumber("89001234567")
                 .clickMiddleOrderStatusButton()
-                .selectOrderDate("Choose пятница, 19-е августа 2022 г.") // Дата заказа в формате: "Choose четверг, 11-е августа 2022 г."
-                .selectDaysCount("сутки") // Срок аренды в формате: "количество суток"
+                .selectOrderDate("Choose РїСЏС‚РЅРёС†Р°, 19-Рµ Р°РІРіСѓСЃС‚Р° 2022 Рі.") // Р”Р°С‚Р° Р·Р°РєР°Р·Р° РІ С„РѕСЂРјР°С‚Рµ: "Choose С‡РµС‚РІРµСЂРі, 11-Рµ Р°РІРіСѓСЃС‚Р° 2022 Рі."
+                .selectDaysCount("СЃСѓС‚РєРё") // РЎСЂРѕРє Р°СЂРµРЅРґС‹ РІ С„РѕСЂРјР°С‚Рµ: "РєРѕР»РёС‡РµСЃС‚РІРѕ СЃСѓС‚РѕРє"
                 .clickSelectGreyColor()
-                .typeOrderComment("не звонить")
+                .typeOrderComment("РЅРµ Р·РІРѕРЅРёС‚СЊ")
                 .clickMiddleOrderStatusButton()
                 .clickConsentButton()
                 .consentWindowDisplay();

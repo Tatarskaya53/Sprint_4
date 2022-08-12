@@ -11,7 +11,7 @@ public class MainPageElements {
     }
     WebDriver driver;
 
-    //Блок вопросов для теста ("Вопросы о важном")
+    //Р‘Р»РѕРє РІРѕРїСЂРѕСЃРѕРІ РґР»СЏ С‚РµСЃС‚Р° ("Р’РѕРїСЂРѕСЃС‹ Рѕ РІР°Р¶РЅРѕРј")
     private final By blockOfQuestions = By.className("Home_FAQ__3uVm4");
 
     public MainPageElements scrollBlockOfQuestions() {

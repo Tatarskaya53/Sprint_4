@@ -10,34 +10,34 @@ public class OrderPageElements {
     }
     WebDriver driver;
 
-    //Кнопка заказ(верхн.)/далее
+    //РљРЅРѕРїРєР° Р·Р°РєР°Р·(РІРµСЂС…РЅ.)/РґР°Р»РµРµ
     private final By headerOrderStatusButton = By.xpath(".//button[@class = 'Button_Button__ra12g']");
-    //Кнопка заказ(нижн.)
+    //РљРЅРѕРїРєР° Р·Р°РєР°Р·(РЅРёР¶РЅ.)
     private final By middleOrderStatusButton = By.xpath(".//button[@class = 'Button_Button__ra12g Button_Middle__1CSJM']");
-    // Поле Имя
-    private final By customersNameInput = By.xpath(".//input[@placeholder='* Имя']");
-    // Поле Фамилия
-    private final By customersFamilyInput = By.xpath(".//input[@placeholder='* Фамилия']");
-    //Поле адрес
-    private final By customersAddressInput = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
-    //Станция метро
-    private final By customersMetroSelect = By.xpath(".//input[@placeholder='* Станция метро']");
-    //Телефон клиента
-    private final By customersTelNumberInput = By.xpath(".//input[@placeholder='* Телефон: на него позвонит курьер']");
-    //Когда привезти самокат
-    private final By orderDate = By.xpath(".//input[@placeholder = '* Когда привезти самокат']");
-    // Срок аренды
-    private final By orderDuration = By.xpath(".//div[text() = '* Срок аренды']");
-    //Выбор цвета "чёрный жемчуг"
-    private final By selectBlackColor = By.xpath("//label[contains(@class, 'Checkbox_Label__3wxSf') and contains(text() ,'чёрный жемчуг')]");
-    //Выбор цвета "серая безысходность"
-    private final By selectGreyColor = By.xpath("//label[contains(@class, 'Checkbox_Label__3wxSf') and contains(text() ,'серая безысходность')]");
-    // Комментарий для курьера
-    private final By orderComment = By.xpath(".//input[@placeholder = 'Комментарий для курьера']");
-    // Кнопка подтверждения заказа
-    private final  By consentButton =By.xpath(".//button[contains(@class, 'Button_Button__ra12g Button_Middle__1CSJM') and contains(text() ,'Да')]");
-    // Окно подтверждения заказа
-    private final By consentWindow = By.xpath("//div[contains(@class, 'Order_ModalHeader__3FDaJ') and contains(text() ,'Заказ оформлен')]");
+    // РџРѕР»Рµ РРјСЏ
+    private final By customersNameInput = By.xpath(".//input[@placeholder='* РРјСЏ']");
+    // РџРѕР»Рµ Р¤Р°РјРёР»РёСЏ
+    private final By customersFamilyInput = By.xpath(".//input[@placeholder='* Р¤Р°РјРёР»РёСЏ']");
+    //РџРѕР»Рµ Р°РґСЂРµСЃ
+    private final By customersAddressInput = By.xpath(".//input[@placeholder='* РђРґСЂРµСЃ: РєСѓРґР° РїСЂРёРІРµР·С‚Рё Р·Р°РєР°Р·']");
+    //РЎС‚Р°РЅС†РёСЏ РјРµС‚СЂРѕ
+    private final By customersMetroSelect = By.xpath(".//input[@placeholder='* РЎС‚Р°РЅС†РёСЏ РјРµС‚СЂРѕ']");
+    //РўРµР»РµС„РѕРЅ РєР»РёРµРЅС‚Р°
+    private final By customersTelNumberInput = By.xpath(".//input[@placeholder='* РўРµР»РµС„РѕРЅ: РЅР° РЅРµРіРѕ РїРѕР·РІРѕРЅРёС‚ РєСѓСЂСЊРµСЂ']");
+    //РљРѕРіРґР° РїСЂРёРІРµР·С‚Рё СЃР°РјРѕРєР°С‚
+    private final By orderDate = By.xpath(".//input[@placeholder = '* РљРѕРіРґР° РїСЂРёРІРµР·С‚Рё СЃР°РјРѕРєР°С‚']");
+    // РЎСЂРѕРє Р°СЂРµРЅРґС‹
+    private final By orderDuration = By.xpath(".//div[text() = '* РЎСЂРѕРє Р°СЂРµРЅРґС‹']");
+    //Р’С‹Р±РѕСЂ С†РІРµС‚Р° "С‡С‘СЂРЅС‹Р№ Р¶РµРјС‡СѓРі"
+    private final By selectBlackColor = By.xpath("//label[contains(@class, 'Checkbox_Label__3wxSf') and contains(text() ,'С‡С‘СЂРЅС‹Р№ Р¶РµРјС‡СѓРі')]");
+    //Р’С‹Р±РѕСЂ С†РІРµС‚Р° "СЃРµСЂР°СЏ Р±РµР·С‹СЃС…РѕРґРЅРѕСЃС‚СЊ"
+    private final By selectGreyColor = By.xpath("//label[contains(@class, 'Checkbox_Label__3wxSf') and contains(text() ,'СЃРµСЂР°СЏ Р±РµР·С‹СЃС…РѕРґРЅРѕСЃС‚СЊ')]");
+    // РљРѕРјРјРµРЅС‚Р°СЂРёР№ РґР»СЏ РєСѓСЂСЊРµСЂР°
+    private final By orderComment = By.xpath(".//input[@placeholder = 'РљРѕРјРјРµРЅС‚Р°СЂРёР№ РґР»СЏ РєСѓСЂСЊРµСЂР°']");
+    // РљРЅРѕРїРєР° РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ Р·Р°РєР°Р·Р°
+    private final  By consentButton =By.xpath(".//button[contains(@class, 'Button_Button__ra12g Button_Middle__1CSJM') and contains(text() ,'Р”Р°')]");
+    // РћРєРЅРѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ Р·Р°РєР°Р·Р°
+    private final By consentWindow = By.xpath("//div[contains(@class, 'Order_ModalHeader__3FDaJ') and contains(text() ,'Р—Р°РєР°Р· РѕС„РѕСЂРјР»РµРЅ')]");
 
     public OrderPageElements clickHeaderOrderStatusButton() {
         driver.findElement(headerOrderStatusButton).click();

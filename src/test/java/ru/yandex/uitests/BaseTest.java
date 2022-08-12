@@ -12,7 +12,7 @@ import java.time.Duration;
 public class BaseTest {
 
     WebDriver driver;
-    //ภไ๐ๅ๑ URL
+    //ะะดั€ะตั URL
     public final String pageUrl = "https://qa-scooter.praktikum-services.ru/";
 
     @Before
