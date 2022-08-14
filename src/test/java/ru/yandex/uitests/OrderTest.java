@@ -6,7 +6,6 @@ import ru.yandex.uitest.pages.OrderPageElements;
 import static org.junit.Assert.assertTrue;
 
 public class OrderTest extends BaseTest {
-
     @Test
     public void test1() {
         OrderPageElements orderPage = new OrderPageElements(driver);
