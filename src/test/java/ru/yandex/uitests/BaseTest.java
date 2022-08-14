@@ -8,7 +8,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
-
 public class BaseTest {
 
     WebDriver driver;
